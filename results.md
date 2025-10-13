@@ -5,8 +5,8 @@
 Лучший F1 (CV): 0.9803
 
 ### RANDOM FOREST (dry + wet, мультиканальный) — CLASSIFICATION REPORT (TRAIN)
-              precision    recall  f1-score   support
 
+              precision    recall  f1-score   support
      asphalt       1.00      0.99      1.00      1676
 cobblestones       0.78      1.00      0.88        51
 
@@ -16,8 +16,8 @@ weighted avg       0.99      0.99      0.99      1727
 
 
 ### RANDOM FOREST (dry + wet, мультиканальный) — CLASSIFICATION REPORT (TEST)
-              precision    recall  f1-score   support
 
+              precision    recall  f1-score   support
      asphalt       1.00      1.00      1.00       419
 cobblestones       1.00      0.85      0.92        13
 
@@ -38,8 +38,8 @@ F1-weighted (test):  0.9952
 Лучший F1 (CV): 0.9830
 
 ### SVM (dry + wet, мультиканальный) — CLASSIFICATION REPORT (TRAIN)
-              precision    recall  f1-score   support
 
+              precision    recall  f1-score   support
      asphalt       1.00      1.00      1.00      1676
 cobblestones       0.88      1.00      0.94        51
 
@@ -49,8 +49,8 @@ weighted avg       1.00      1.00      1.00      1727
 
 
 ### SVM (dry + wet, мультиканальный) — CLASSIFICATION REPORT (TEST)
-              precision    recall  f1-score   support
 
+              precision    recall  f1-score   support
      asphalt       1.00      0.99      0.99       419
 cobblestones       0.71      0.92      0.80        13
 
@@ -73,8 +73,8 @@ F1-weighted (test):  0.9870
 Обучаем ансамбль SVM + Random Forest...
 
 ### ENSEMBLE (SVM + RF) — CLASSIFICATION REPORT (TRAIN)
-              precision    recall  f1-score   support
 
+              precision    recall  f1-score   support
      asphalt       1.00      1.00      1.00      1676
 cobblestones       0.96      1.00      0.98        51
 
@@ -84,8 +84,8 @@ weighted avg       1.00      1.00      1.00      1727
 
 
 ### ENSEMBLE (SVM + RF) — CLASSIFICATION REPORT (TEST)
-              precision    recall  f1-score   support
 
+              precision    recall  f1-score   support
      asphalt       1.00      1.00      1.00       419
 cobblestones       1.00      0.85      0.92        13
 
