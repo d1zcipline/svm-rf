@@ -4,9 +4,7 @@
 Лучшие параметры: {'n_estimators': 479, 'max_depth': 5, 'min_samples_split': 17, 'min_samples_leaf': 10}
 Лучший F1 (CV): 0.9803
 
-======================================================================
-RANDOM FOREST (dry + wet, мультиканальный) — CLASSIFICATION REPORT (TRAIN)
-======================================================================
+### RANDOM FOREST (dry + wet, мультиканальный) — CLASSIFICATION REPORT (TRAIN)
               precision    recall  f1-score   support
 
      asphalt       1.00      0.99      1.00      1676
@@ -17,9 +15,7 @@ cobblestones       0.78      1.00      0.88        51
 weighted avg       0.99      0.99      0.99      1727
 
 
-======================================================================
-RANDOM FOREST (dry + wet, мультиканальный) — CLASSIFICATION REPORT (TEST)
-======================================================================
+### RANDOM FOREST (dry + wet, мультиканальный) — CLASSIFICATION REPORT (TEST)
               precision    recall  f1-score   support
 
      asphalt       1.00      1.00      1.00       419
@@ -41,9 +37,7 @@ F1-weighted (test):  0.9952
 Лучшие параметры: {'C': 3.4684554466506023, 'gamma': 0.00023310381598388974}
 Лучший F1 (CV): 0.9830
 
-======================================================================
-SVM (dry + wet, мультиканальный) — CLASSIFICATION REPORT (TRAIN)
-======================================================================
+### SVM (dry + wet, мультиканальный) — CLASSIFICATION REPORT (TRAIN)
               precision    recall  f1-score   support
 
      asphalt       1.00      1.00      1.00      1676
@@ -54,9 +48,7 @@ cobblestones       0.88      1.00      0.94        51
 weighted avg       1.00      1.00      1.00      1727
 
 
-======================================================================
-SVM (dry + wet, мультиканальный) — CLASSIFICATION REPORT (TEST)
-======================================================================
+### SVM (dry + wet, мультиканальный) — CLASSIFICATION REPORT (TEST)
               precision    recall  f1-score   support
 
      asphalt       1.00      0.99      0.99       419
@@ -80,9 +72,7 @@ F1-weighted (test):  0.9870
 Лучшие параметры RF: {'n_estimators': 237, 'max_depth': 5, 'min_samples_split': 7, 'min_samples_leaf': 4}
 Обучаем ансамбль SVM + Random Forest...
 
-======================================================================
-ENSEMBLE (SVM + RF) — CLASSIFICATION REPORT (TRAIN)
-======================================================================
+### ENSEMBLE (SVM + RF) — CLASSIFICATION REPORT (TRAIN)
               precision    recall  f1-score   support
 
      asphalt       1.00      1.00      1.00      1676
@@ -93,9 +83,7 @@ cobblestones       0.96      1.00      0.98        51
 weighted avg       1.00      1.00      1.00      1727
 
 
-======================================================================
-ENSEMBLE (SVM + RF) — CLASSIFICATION REPORT (TEST)
-======================================================================
+### ENSEMBLE (SVM + RF) — CLASSIFICATION REPORT (TEST)
               precision    recall  f1-score   support
 
      asphalt       1.00      1.00      1.00       419
