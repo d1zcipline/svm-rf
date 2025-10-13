@@ -5,7 +5,7 @@
 Лучший F1 (CV): 0.9803
 
 ### RANDOM FOREST (dry + wet, мультиканальный) — CLASSIFICATION REPORT (TRAIN)
-
+```
               precision    recall  f1-score   support
      asphalt       1.00      0.99      1.00      1676
 cobblestones       0.78      1.00      0.88        51
@@ -13,10 +13,10 @@ cobblestones       0.78      1.00      0.88        51
     accuracy                           0.99      1727
    macro avg       0.89      1.00      0.94      1727
 weighted avg       0.99      0.99      0.99      1727
-
+```
 
 ### RANDOM FOREST (dry + wet, мультиканальный) — CLASSIFICATION REPORT (TEST)
-
+```
               precision    recall  f1-score   support
      asphalt       1.00      1.00      1.00       419
 cobblestones       1.00      0.85      0.92        13
@@ -24,7 +24,7 @@ cobblestones       1.00      0.85      0.92        13
     accuracy                           1.00       432
    macro avg       1.00      0.92      0.96       432
 weighted avg       1.00      1.00      1.00       432
-
+```
 
 F1-weighted (train): 0.9924
 F1-weighted (test):  0.9952
@@ -38,7 +38,7 @@ F1-weighted (test):  0.9952
 Лучший F1 (CV): 0.9830
 
 ### SVM (dry + wet, мультиканальный) — CLASSIFICATION REPORT (TRAIN)
-
+```
               precision    recall  f1-score   support
      asphalt       1.00      1.00      1.00      1676
 cobblestones       0.88      1.00      0.94        51
@@ -46,10 +46,10 @@ cobblestones       0.88      1.00      0.94        51
     accuracy                           1.00      1727
    macro avg       0.94      1.00      0.97      1727
 weighted avg       1.00      1.00      1.00      1727
-
+```
 
 ### SVM (dry + wet, мультиканальный) — CLASSIFICATION REPORT (TEST)
-
+```
               precision    recall  f1-score   support
      asphalt       1.00      0.99      0.99       419
 cobblestones       0.71      0.92      0.80        13
@@ -57,7 +57,7 @@ cobblestones       0.71      0.92      0.80        13
     accuracy                           0.99       432
    macro avg       0.85      0.96      0.90       432
 weighted avg       0.99      0.99      0.99       432
-
+```
 
 F1-weighted (train): 0.9961
 F1-weighted (test):  0.9870
@@ -73,7 +73,7 @@ F1-weighted (test):  0.9870
 Обучаем ансамбль SVM + Random Forest...
 
 ### ENSEMBLE (SVM + RF) — CLASSIFICATION REPORT (TRAIN)
-
+```
               precision    recall  f1-score   support
      asphalt       1.00      1.00      1.00      1676
 cobblestones       0.96      1.00      0.98        51
@@ -81,10 +81,10 @@ cobblestones       0.96      1.00      0.98        51
     accuracy                           1.00      1727
    macro avg       0.98      1.00      0.99      1727
 weighted avg       1.00      1.00      1.00      1727
-
+```
 
 ### ENSEMBLE (SVM + RF) — CLASSIFICATION REPORT (TEST)
-
+```
               precision    recall  f1-score   support
      asphalt       1.00      1.00      1.00       419
 cobblestones       1.00      0.85      0.92        13
@@ -92,7 +92,7 @@ cobblestones       1.00      0.85      0.92        13
     accuracy                           1.00       432
    macro avg       1.00      0.92      0.96       432
 weighted avg       1.00      1.00      1.00       432
-
+```
 
 F1-weighted (train): 0.9989
 F1-weighted (test):  0.9952
