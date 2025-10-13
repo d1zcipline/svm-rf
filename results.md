@@ -1,7 +1,7 @@
 ## RF
 
 Подбор гиперпараметров для Random Forest:
-Лучшие параметры: {'n_estimators': 479, 'max_depth': 5, 'min_samples_split': 17, 'min_samples_leaf': 10}
+Лучшие параметры: `{'n_estimators': 479, 'max_depth': 5, 'min_samples_split': 17, 'min_samples_leaf': 10}`
 Лучший F1 (CV): 0.9803
 
 ### RANDOM FOREST (dry + wet, мультиканальный) — CLASSIFICATION REPORT (TRAIN)
@@ -34,7 +34,7 @@ F1-weighted (test):  0.9952
 ## SVM
 
 Подбор гиперпараметров для SVM:
-Лучшие параметры: {'C': 3.4684554466506023, 'gamma': 0.00023310381598388974}
+Лучшие параметры: `{'C': 3.4684554466506023, 'gamma': 0.00023310381598388974}`
 Лучший F1 (CV): 0.9830
 
 ### SVM (dry + wet, мультиканальный) — CLASSIFICATION REPORT (TRAIN)
@@ -67,9 +67,9 @@ F1-weighted (test):  0.9870
 ## SVM + RF
 
 Подбор гиперпараметров для SVM:
-Лучшие параметры SVM: {'C': 13.083051327582735, 'gamma': 0.00010021523102968868}
+Лучшие параметры SVM: `{'C': 13.083051327582735, 'gamma': 0.00010021523102968868}`
 Подбор гиперпараметров для Random Forest...
-Лучшие параметры RF: {'n_estimators': 237, 'max_depth': 5, 'min_samples_split': 7, 'min_samples_leaf': 4}
+Лучшие параметры RF: `{'n_estimators': 237, 'max_depth': 5, 'min_samples_split': 7, 'min_samples_leaf': 4}`
 Обучаем ансамбль SVM + Random Forest...
 
 ### ENSEMBLE (SVM + RF) — CLASSIFICATION REPORT (TRAIN)
